@@ -9,7 +9,7 @@ The initial core files of this package was cloned from [ejarnutowski/laravel-api
 
 ## Installation
 
-Run `composer require nivekalara237/laravel-api-key`.
+Run `composer require niveka/laravel-api-key`.
 
 In your `config/app.php` file, add the Laravel API Key service provider to the end of the `providers` array.
 
