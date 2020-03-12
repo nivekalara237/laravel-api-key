@@ -1,6 +1,6 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Models;
+namespace Nivekaa\LaravelApiKey\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

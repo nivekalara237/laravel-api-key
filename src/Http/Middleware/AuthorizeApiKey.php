@@ -1,15 +1,15 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Http\Middleware;
+namespace Nivekaa\LaravelApiKey\Http\Middleware;
 
 use Closure;
-use Ejarnutowski\LaravelApiKey\Models\ApiKey;
-use Ejarnutowski\LaravelApiKey\Models\ApiKeyAccessEvent;
+use Nivekaa\LaravelApiKey\Models\ApiKey;
+use Nivekaa\LaravelApiKey\Models\ApiKeyAccessEvent;
 use Illuminate\Http\Request;
 
 class AuthorizeApiKey
 {
-    const AUTH_HEADER = 'X-Authorization';
+    const AUTH_HEADER = 'X-SOKO-API-KEY';
 
     /**
      * Handle the incoming request

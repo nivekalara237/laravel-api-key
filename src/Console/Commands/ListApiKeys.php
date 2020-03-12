@@ -1,8 +1,8 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Console\Commands;
+namespace Nivekaa\LaravelApiKey\Console\Commands;
 
-use Ejarnutowski\LaravelApiKey\Models\ApiKey;
+use Nivekaa\LaravelApiKey\Models\ApiKey;
 use Illuminate\Console\Command;
 
 class ListApiKeys extends Command
