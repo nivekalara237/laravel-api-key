@@ -1,9 +1,9 @@
 Laravel API Key Auth
 ========
 
-<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/nivekalara237/laravel-api-key/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/nivekalara237/laravel-api-key/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/nivekalara237/laravel-api-key/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/nivekalara237/laravel-api-key"><img src="https://poser.pugx.org/nivekalara237/laravel-api-key/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/nivekalara237/laravel-api-key"><img src="https://poser.pugx.org/nivekalara237/laravel-api-key/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/nivekalara237/laravel-api-key"><img src="https://poser.pugx.org/nivekalara237/laravel-api-key/license.svg" alt="License"></a>
 
 The initial core files of this package was cloned from [ejarnutowski/laravel-api-key](https://github.com/ejarnutowski/laravel-api-key)
 
