@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class AuthorizeApiKey
 {
-    const AUTH_HEADER = 'X-SOKO-API-KEY';
+    const AUTH_HEADER = 'X-API-KEY';
 
     /**
      * Handle the incoming request
@@ -29,9 +29,8 @@ class AuthorizeApiKey
         }
 
         return response([
-            'errors' => [[
-                'message' => 'Unauthorized'
-            ]]
+            "success"=>false,
+            'message' => 'Unautorized. Your API KEY is invalid'
         ], 401);
     }
 

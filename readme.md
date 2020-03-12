@@ -1,13 +1,15 @@
 Laravel API Key Auth
 ========
 
-<!--a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/ejarnutowski/laravel-api-key/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/ejarnutowski/laravel-api-key/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/ejarnutowski/laravel-api-key/license.svg" alt="License"></a-->
+<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/nivekalara237/laravel-api-key/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/nivekalara237/laravel-api-key/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/nivekalara237/laravel-api-key/license.svg" alt="License"></a>
+
+The initial core files of this package was cloned from [ejarnutowski/laravel-api-key](https://github.com/ejarnutowski/laravel-api-key)
 
 ## Installation
 
-Run `composer require nivekaa/laravel-api-key`.
+Run `composer require nivekalara237/laravel-api-key`.
 
 In your `config/app.php` file, add the Laravel API Key service provider to the end of the `providers` array.
 
@@ -122,7 +124,7 @@ class UserController extends Controller
 
 In order to pass the `auth.apikey` middleware, requests must include an `X-Authorization` header as part of the request, with its value being an active API key.
 
-    X-Authorization: KuKMQbgZPv0PRC6GqCMlDQ7fgdamsVY75FrQvHfoIbw4gBaG5UX0wfk6dugKxrtW
+    X-API-KEY: KuKMQbgZPv0PRC6GqCMlDQ7fgdamsVY75FrQvHfoIbw4gBaG5UX0wfk6dugKxrtW
 
 ## Unauthorized Requests
 
@@ -130,11 +132,8 @@ Requests that do not pass authorization will receive an HTTP 401 Status Code wit
 
 ```json
 {
-    "errors": [
-        {
-            "message": "Unauthorized"
-        }
-    ]
+    "success": false,
+    "message": "Unautorized. Your API KEY is invalid",
 }
 ```
 

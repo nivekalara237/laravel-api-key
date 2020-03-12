@@ -1,11 +1,11 @@
 {
-    "name": "nivekaa/laravel-api-key",
+    "name": "nivekalara237/laravel-api-key",
     "description": "Authorize requests to your Laravel application with API keys",
     "keywords": ["api", "api key", "authentication", "authorization", "laravel"],
     "license": "MIT",
     "authors": [
         {
-            "name": "nivekaa.com ",
+            "name": "nivekaa.com",
             "email": "contact@nivekaa.com"
         }
     ],
