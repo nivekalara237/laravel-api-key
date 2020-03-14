@@ -14,7 +14,7 @@ class CreateApiKeysTable extends Migration
     public function up()
     {
         Schema::create('api_keys', function (Blueprint $table) {
-            $table->increments('id');
+            $table->bigIncrements('id');
             $table->string('name');
             $table->string('key', 64);
             $table->boolean('active')->default(1);

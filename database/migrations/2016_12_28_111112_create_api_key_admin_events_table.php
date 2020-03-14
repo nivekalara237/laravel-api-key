@@ -14,8 +14,8 @@ class CreateApiKeyAdminEventsTable extends Migration
     public function up()
     {
         Schema::create('api_key_admin_events', function (Blueprint $table) {
-            $table->increments('id');
-            $table->unsignedInteger('api_key_id');
+            $table->bigIncrements('id');
+            $table->unsignedBigInteger('api_key_id');
             $table->ipAddress('ip_address');
             $table->string('event');
             $table->timestamps();
