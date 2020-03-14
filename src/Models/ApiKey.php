@@ -19,6 +19,11 @@ class ApiKey extends Model
 
     protected $table = 'api_keys';
 
+    protected $fillable = [
+        "name",
+        "key"
+    ];
+
     /**
      * Get the related ApiKeyAccessEvents records
      *
